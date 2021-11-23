@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,21 +10,21 @@
   "release": {
     "branches": [
       "main"
+    ],
+    "plugins": [
+      ["@semantic-release/commit-analyzer", {
+        "preset": "angular",
+        "releaseRules": [
+          {"type": "fix", "release": "patch"},
+          {"type": "feat", "release": "minor"},
+          {"type": "perf", "release": "major"}
+        ],
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+        }
+      }]
     ]
   },
-  "plugins": [
-    ["@semantic-release/commit-analyzer", {
-      "preset": "angular",
-      "releaseRules": [
-        {"type": "fix", "release": "patch"},
-        {"type": "feat", "release": "minor"},
-        {"type": "perf", "release": "major"}
-      ],
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      }
-    }]
-  ],
   "engines": {
     "node": ">=10"
   },
