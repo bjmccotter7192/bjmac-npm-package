@@ -1416,7 +1416,7 @@
     "estree-walker" "^1.0.1"
     "picomatch" "^2.2.2"
 
-"@semantic-release/commit-analyzer@^9.0.0":
+"@semantic-release/commit-analyzer@^9.0.0", "@semantic-release/commit-analyzer@^9.0.1":
   "integrity" "sha512-ncNsnrLmiykhgNZUXNvhhAjNN0me7VGIb0X5hu3ogyi5DDPapjGAHdEffO5vi+HX1BFWLRD/Ximx5PjGAKjAqQ=="
   "resolved" "https://registry.npmjs.org/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.1.tgz"
   "version" "9.0.1"
