@@ -1,7 +1,6 @@
 {
   "name": "bjmac-react-button",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
