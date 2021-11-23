@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "bjmac-button",
+  "name": "bjmac-button-2",
   "author": "BJ McCotter",
   "module": "dist/bjmac-button.esm.js",
   "size-limit": [
