@@ -23,6 +23,12 @@ jobs:
     
     - name: Build package NPM package
       run: yarn build
+
+    - name: Run npx semantic-release
+      run: npx semantic-release
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Publish build artifacts to NPM
       run: npm publish --access public
