@@ -12,17 +12,35 @@
       "main"
     ],
     "plugins": [
-      ["@semantic-release/commit-analyzer", {
-        "preset": "angular",
-        "releaseRules": [
-          {"type": "fix", "release": "patch"},
-          {"type": "feat", "release": "minor"},
-          {"type": "perf", "release": "major"}
-        ],
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "fix",
+              "release": "patch"
+            },
+            {
+              "type": "feat",
+              "release": "minor"
+            },
+            {
+              "type": "perf",
+              "release": "major"
+            }
+          ],
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES"
+            ]
+          }
         }
-      }]
+      ],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/git"
     ]
   },
   "engines": {
@@ -65,7 +83,11 @@
     }
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^8.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "@size-limit/preset-small-lib": "^7.0.3",
     "@types/react": "^17.0.36",
     "@types/react-dom": "^17.0.11",
