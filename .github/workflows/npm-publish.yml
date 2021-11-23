@@ -30,7 +30,7 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Publish build artifacts to NPM
-      run: npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+    # - name: Publish build artifacts to NPM
+    #   run: npm publish --access public
+    #   env:
+    #     NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
