@@ -7,6 +7,9 @@
     "dist",
     "src"
   ],
+  "release": {
+    "branches": ["main"]
+  },
   "engines": {
     "node": ">=10"
   },
