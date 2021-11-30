@@ -1,10 +1,11 @@
 import * as React from 'react';
-import {Button} from './button';
+import { DefaultForm } from './defaultForm';
 
-// Delete me
-export const Thing = () => {
-  return <div className="custom-text">
-    <Button/>
-    the snozzberries taste like snozzberries BJ CHANGING FOR TESTING
-  </div>;
+export const BJForm = () => {
+  return (
+    <div className="custom-text">
+      Showing a Default Form made with Formik
+      <DefaultForm/>
+    </div>
+  );
 };
