@@ -103,6 +103,7 @@
   },
   "dependencies": {
     "@department-of-veterans-affairs/formulate": "^0.0.1",
+    "eslint": "^8.20.0",
     "formik": "^2.2.9"
   }
 }
