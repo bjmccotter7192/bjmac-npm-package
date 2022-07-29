@@ -25,5 +25,5 @@ jobs:
     - name: Run npx semantic-release
       run: npx semantic-release
       env:
-        NPM_TOKEN_2: ${{ secrets.NODE_AUTH_TOKEN }}
+        NPM_TOKEN_AUTOMATION: ${{ secrets.NODE_AUTH_TOKEN }}
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
