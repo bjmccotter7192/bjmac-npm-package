@@ -11,7 +11,7 @@ export const Button = () => {
           <button>Push Test Number 3!</button>
       </h3>
 
-      <p>Testing Push</p>
+      <p>Testing Push 2</p>
     </>
   )
 } 
