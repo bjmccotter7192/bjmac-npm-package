@@ -30,6 +30,7 @@ export const DefaultForm = () => {
                         />
                     </div>
                     <br/>
+                    <br/>
                     <div>
                         <label htmlFor="lastName">Last Name</label>
                         <Field 
