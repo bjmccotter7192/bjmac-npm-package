@@ -12,8 +12,6 @@ export const Button = () => {
       </h3>
 
       <p>Testing Push 2</p>
-
-      <div>Hello DIV</div>
     </>
   )
 } 
