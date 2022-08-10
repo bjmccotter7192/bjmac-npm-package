@@ -1,8 +1,10 @@
 name: Yarn publish
 
 on:
-  push:
-    branches: [ main ]
+  workflow_run:
+    workflows: [Build and Test]
+    types: [completed]
+    branches: [main]
 
 jobs:
   publish:
