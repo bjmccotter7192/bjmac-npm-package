@@ -7,12 +7,11 @@ export const Button = () => {
 
       <h2>Push Button Below V V V</h2>
 
+      <p>Adding a cool paragraph to test</p>
+
       <h3>
           <button>Push Test Number 3!</button>
       </h3>
-
-      <p>Testing Push 2</p>
-      <div>Hello There</div>
     </>
   )
 } 
