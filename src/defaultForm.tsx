@@ -64,6 +64,8 @@ export const DefaultForm = () => {
                         />
                     </div>
                     <button type="submit">Submit</button>
+
+                    <h2><b>NOTE:</b> THIS WILL BE DELETED</h2>
                 </Form>
             </Formik>
         </div>
