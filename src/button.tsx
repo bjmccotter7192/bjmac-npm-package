@@ -10,9 +10,6 @@ export const Button = () => {
       <h3>
           <button>Push Test Number 3!</button>
       </h3>
-
-      <p>Testing Push 2</p>
-      <div>Hello There</div>
     </>
   )
 } 
