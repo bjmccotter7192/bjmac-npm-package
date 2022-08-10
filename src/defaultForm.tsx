@@ -29,8 +29,6 @@ export const DefaultForm = () => {
                             required
                         />
                     </div>
-                    <br/>
-                    <br/>
                     <div>
                         <label htmlFor="lastName">Last Name</label>
                         <Field 
