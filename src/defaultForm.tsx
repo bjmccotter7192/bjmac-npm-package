@@ -38,7 +38,6 @@ export const DefaultForm = () => {
                             required
                         />
                     </div>
-                    <br/>
                     <div>
                         <label htmlFor="testVal">Testing TextField</label>
                         <TextField
@@ -54,7 +53,6 @@ export const DefaultForm = () => {
                             required
                         />
                     </div>
-                    <br/>
                     <div>
                         <label htmlFor="email">Email</label>
                         <Field
@@ -65,7 +63,6 @@ export const DefaultForm = () => {
                             required
                         />
                     </div>
-                    <br/>
                     <button type="submit">Submit</button>
                 </Form>
             </Formik>
