@@ -17,6 +17,12 @@ jobs:
       with:
         node-version: 14.x
         registry-url: 'https://registry.npmjs.org'
+    
+    - name: Install dependencies in react-components
+      run: yarn install
+    
+    - name: Build package NPM package
+      run: yarn build
 
     - name: Run npx semantic-release
       run: npx semantic-release
