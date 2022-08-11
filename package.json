@@ -39,6 +39,7 @@
         }
       ],
       "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
       "@semantic-release/github",
       "@semantic-release/git"
     ]
@@ -86,6 +87,7 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.2",
     "@size-limit/preset-small-lib": "^7.0.3",
     "@types/react": "^17.0.36",
