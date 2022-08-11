@@ -9,7 +9,9 @@ export const BJForm = () => {
       Adding some more commits to fit.
 
       Fix added.
-      
+
+      Feat added.
+
       <DefaultForm/>
     </div>
   );
