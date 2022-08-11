@@ -16,6 +16,12 @@ jobs:
         node-version: 14.x
         registry-url: 'https://registry.npmjs.org'
 
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build service for testing
+      run: yarn build
+
     - name: Run npx semantic-release
       run: npx semantic-release
       env:
